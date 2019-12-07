@@ -1,0 +1,1 @@
+const str = 'hello git, hello typeScript';
