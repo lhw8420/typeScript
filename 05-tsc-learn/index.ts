@@ -4,4 +4,4 @@ let myArr:string[] = ["123", ""]
 let arr: Array<number> = [1,2,3]
 
 //一个数据类型定义过之后，赋值给另一个字段的时候不需要在定义
-let arr2 = arr
+let arr2 = arr;

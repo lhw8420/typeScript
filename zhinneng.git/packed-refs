@@ -1,0 +1,5 @@
+# pack-refs with: peeled fully-peeled sorted 
+a249941f49c5d3af80a9409194d4a1bf54f4504a refs/heads/03-tsc-learn
+40a025be58f8efc9857465e59a6a14c110241a13 refs/heads/04-tsc-learn
+4aaf3a391d24f56926310759ed8c5643bbf4a03f refs/heads/05-tsc-learn
+5005fda9596505d9747608d7d63b83ba96a5f89c refs/heads/master
