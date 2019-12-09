@@ -1,2 +1,2 @@
 var fn = function () { return 'response'; };
-var str = 'hello git';
+var str = 'hello git;';
