@@ -51,3 +51,19 @@ function add(*a*: *number*, *b*: *number*): *number*{
 ​    return a+b;
 
 }
+
+// 求和，参数集合
+
+*function* sum(*a*:*number*,*b*:*number*,...*num*:*number*[]): *number* *=>* {
+
+​    let result  = num.reduce((*total*, *curr*) *=>* {
+
+​        return total + curr
+
+​    })
+
+​    return a+ result
+
+}
+
+sum(1,2,3,4,6)

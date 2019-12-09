@@ -25,3 +25,10 @@ function add(a, b) {
     if (b === void 0) { b = 20; }
     return a + b;
 }
+{
+    var result = num.reduce(function (total, curr) {
+        return total + curr;
+    });
+    return a + result;
+}
+sum(1, 2, 3, 4, 6);

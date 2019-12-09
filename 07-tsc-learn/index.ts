@@ -27,3 +27,12 @@ function add(a: number, b?: number = 20): number{
 function add(a: number, b = 20): number{
     return a+b;
 }
+
+// 求和
+function sum(a:number,b:number,...num:number[]): number => {
+    let result  = num.reduce((total, curr) => {
+        return total + curr
+    })
+    return a+ result
+}
+sum(1,2,3,4,6)
