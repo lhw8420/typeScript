@@ -1,3 +1,5 @@
+参数联合类型
+
 // 参数为string或者数字
 
 *const* log = (*value*: *string* | *number*) *=>* {
